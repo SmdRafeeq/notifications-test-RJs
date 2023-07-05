@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 32px;
+  color: #0f172a;
+}
+
+.cards {
+  background-color: #000;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  padding: 12px;
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.images {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.primary {
+  background-color: #0b69ff;
+}
+
+.success {
+  background-color: #2dca73;
+}
+
+.warning {
+  background-color: #ffb800;
+}
+
+.error {
+  background-color: #ff0b37;
+}
